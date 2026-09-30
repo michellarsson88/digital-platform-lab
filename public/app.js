@@ -19,7 +19,7 @@ function createBookingEvent() {
 }
 
 async function sendBookingEvent() {
-  const event = createBookingEvent();
+  const event = createBookingEvent(); 
   bookingButton.disabled = true;
   statusMessage.textContent = "Sending event...";
   showLog("Request body", event);
