@@ -13,7 +13,7 @@ Du kan läsa metod, payload, status och svar i Network och säga exakt vad ett `
 1. Starta grundappen och öppna **Network**. Rensa listan, klicka på **Send booking event** och öppna `POST /api/events`.
 2. Anteckna tre saker från **Payload**: `event`, `eventId` och `occurredAt`. Anteckna tre saker från **Response**: `accepted`, `receiptId` och `receivedAt`. Jämför det skickade `eventId` med det i svaret.
 3. Titta i terminalen där `npm start` körs. Hitta raden `Event accepted`. Vilka fält skriver servern där? Vilken information finns i requesten men inte i serverloggen eller kvittot?
-4. Prova en dubblett utan att ändra projektfilen. Kör detta i DevTools **Console** på sidan:
+4. Prova en dubblett utan att ändra projektfilen. Kör detta i DevTools **Console** på sidan:yes, 
 
    ```js
    const duplicate = {
